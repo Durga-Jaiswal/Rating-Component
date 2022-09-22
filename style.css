@@ -1,0 +1,116 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    /* border: 1px solid hsl(25, 97%, 53%); */
+    
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    min-height: 110vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 280px;
+    margin:0 auto 0;
+    
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    height: 320px;
+    color:hsl(217, 12%, 63%);
+    border-radius: 10%;
+}
+#img{
+    padding: 3%;
+    border-radius: 50%;
+    background-color: hsl(213, 20%, 22%)
+}
+h1{
+    color: white;
+    font-size: 1.5rem;
+    padding:4% 0;
+}
+#para{
+    padding: 0.8rem 0;
+    font-size: 0.7rem;
+}
+.btn{
+    width: 90%;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 15px/20px;
+    font-family:  'Overpass', sans-serif;
+    letter-spacing: 3px;
+}
+#rating{
+    /* margin: 5% 0;
+    padding: 5%; */
+    display: flex;
+    flex: column wrap;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+.rating_no{
+   padding: 3% 4.5% 2%;
+   border-radius:50%/50%;
+   background-color:hsl(213, 20%, 22%);
+   color :  hsl(217, 12%, 63%);
+}
+.rating_no:hover{
+     color: hsl(0, 0%, 100%);
+     background-color:hsl(25, 97%, 53%) ; 
+     cursor: pointer;
+}
+.rating_no:target{
+    color: hsl(213, 20%, 22%);
+    background-color:hsl(217, 12%, 63%) ; 
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+.hidden{
+    display: none;
+}
+.thank-you-card{
+    
+    /* margin: 0 auto; */
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+}
+.thank-you-card > img{
+    margin: 0.8rem 0;
+}
+.rating-given{
+    background-color: hsl(213, 20%, 22%);
+    display: inline-block;
+    padding: 2.5% 2% 2%;
+    border-radius: 15px/20px;
+    margin: 0.5rem;
+}
+.thank-you-card .text-thank-you{
+    font-size: 1.4rem;
+    color:hsl(0, 0%, 100%);
+    margin: 0.8rem 0 0.6rem;
+    padding: 1%;
+}
+.thank-you-card p{
+    font-size: 0.75rem;
+    color:hsl(217, 12%, 63%);
+    line-height: 0.9rem;
+    margin: 0.9rem;
+}
+
